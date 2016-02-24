@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,KAAK;EACH,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,ECNA,OAAO;EDOjB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI",
+"sources": ["styling.sass","color-scheme.sass"],
+"names": [],
+"file": "styling.css"
+}
