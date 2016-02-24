@@ -1,0 +1,46 @@
+// Main Varibles
+$red: #ff0000
+$green: #00ff00
+$blue: #0000ff
+
+// Child Varibles (Lighten)
+
+$red-l: lighten($red, 10%)
+$red-ll: lighten($red, 20%)
+$red-lll: lighten($red, 30%)
+$red-llll: lighten($red, 40%)
+
+$green-l: lighten($green, 10%)
+$green-ll: lighten($green, 20%)
+$green-lll: lighten($green, 30%)
+$green-llll: lighten($green, 40%)
+
+$blue-l: lighten($blue, 10%)
+$blue-ll: lighten($blue, 20%)
+$blue-lll: lighten($blue, 30%)
+$blue-llll: lighten($blue, 40%)
+
+// Child Varibles (Darken)
+
+$red-d: darken($red, 10%)
+$red-dd: darken($red, 20%)
+$red-ddd: darken($red, 30%)
+$red-dddd: darken($red, 40%)
+
+$green-d: darken($green, 10%)
+$green-dd: darken($green, 20%)
+$green-ddd: darken($green, 30%)
+$green-dddd: darken($green, 40%)
+
+$blue-d: darken($blue, 10%)
+$blue-dd: darken($blue, 20%)
+$blue-ddd: darken($blue, 30%)
+$blue-dddd: darken($blue, 40%)
+
+// Mixins
+
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
