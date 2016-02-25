@@ -1,0 +1,5 @@
+To Do List:
+
+Set Up JQuery
+Get Collect.sass to work
+Find a useable grid
